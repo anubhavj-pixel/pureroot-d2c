@@ -9,7 +9,7 @@ export default function Home() {
     <div>
       {/* Hero */}
       <section className="relative bg-[#f0ebe3] overflow-hidden">
-        <div className="max-w-6xl mx-auto px-6 py-24 md:py-36 flex flex-col md:flex-row items-center gap-12">
+        <div className="max-w-6xl mx-auto px-6 md:px-12 py-24 md:py-36 flex flex-col md:flex-row items-center gap-12">
           <div className="flex-1 text-center md:text-left">
             <p className="text-[#8b6f5e] text-sm uppercase tracking-widest mb-4">100% Organic · Cruelty Free</p>
             <h1 className="text-4xl md:text-6xl font-light text-[#3d3530] leading-tight mb-6">
@@ -38,7 +38,7 @@ export default function Home() {
 
       {/* Values strip */}
       <section className="border-y border-[#e8e3da] bg-white">
-        <div className="max-w-6xl mx-auto px-6 py-6 grid grid-cols-1 md:grid-cols-3 gap-6 text-center text-sm text-[#6b5e52]">
+        <div className="max-w-6xl mx-auto px-6 md:px-12 py-6 grid grid-cols-1 md:grid-cols-3 gap-6 text-center text-sm text-[#6b5e52]">
           <div>🌿 <span className="ml-2">Certified Organic Ingredients</span></div>
           <div>🐰 <span className="ml-2">Vegan & Cruelty Free</span></div>
           <div>♻️ <span className="ml-2">Plastic-Neutral Packaging</span></div>
@@ -46,7 +46,7 @@ export default function Home() {
       </section>
 
       {/* Featured products */}
-      <section className="max-w-6xl mx-auto px-6 py-20">
+      <section className="max-w-6xl mx-auto px-6 md:px-12 py-20">
         <div className="flex items-center justify-between mb-10">
           <h2 className="text-2xl font-light text-[#3d3530]">Best Sellers</h2>
           <Link to="/products" className="text-sm text-[#8b6f5e] hover:underline">View all →</Link>
@@ -60,7 +60,7 @@ export default function Home() {
 
       {/* Brand promise */}
       <section className="bg-[#3d3530] text-white">
-        <div className="max-w-3xl mx-auto px-6 py-20 text-center">
+        <div className="max-w-3xl mx-auto px-6 md:px-12 py-20 text-center">
           <h2 className="text-3xl font-light mb-6">Every ingredient earned its place.</h2>
           <p className="text-[#c9b9a8] text-lg leading-relaxed mb-8">
             We source every botanical directly from certified organic farms. No synthetic fillers,
