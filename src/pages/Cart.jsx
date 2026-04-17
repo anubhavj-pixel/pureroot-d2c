@@ -18,7 +18,7 @@ export default function Cart() {
   }
 
   return (
-    <div className="max-w-4xl mx-auto px-6 md:px-12 py-16">
+    <div className="max-w-3xl mx-auto px-8 md:px-20 py-16">
       <h1 className="text-3xl font-light text-[#3d3530] mb-10">Your Cart</h1>
 
       <div className="space-y-6 mb-10">

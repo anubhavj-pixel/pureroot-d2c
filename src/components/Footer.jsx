@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 export default function Footer() {
   return (
     <footer className="bg-[#3d3530] text-[#c9b9a8] mt-20">
-      <div className="max-w-6xl mx-auto px-6 md:px-12 py-12 grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div className="max-w-5xl mx-auto px-8 md:px-20 py-12 grid grid-cols-1 md:grid-cols-3 gap-10">
         <div>
           <p className="text-white text-lg font-semibold tracking-widest uppercase mb-3">PureRoot</p>
           <p className="text-sm leading-relaxed">

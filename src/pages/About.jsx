@@ -3,7 +3,7 @@ export default function About() {
     <div>
       {/* Hero */}
       <section className="bg-[#f0ebe3] py-24">
-        <div className="max-w-3xl mx-auto px-6 md:px-12 text-center">
+        <div className="max-w-2xl mx-auto px-8 md:px-20 text-center">
           <p className="text-[#8b6f5e] text-sm uppercase tracking-widest mb-4">Our Story</p>
           <h1 className="text-4xl md:text-5xl font-light text-[#3d3530] leading-tight mb-6">
             Born from a frustration with labels we couldn't read.
@@ -18,7 +18,7 @@ export default function About() {
       </section>
 
       {/* Values */}
-      <section className="max-w-6xl mx-auto px-6 md:px-12 py-20 grid grid-cols-1 md:grid-cols-3 gap-10">
+      <section className="max-w-5xl mx-auto px-8 md:px-20 py-20 grid grid-cols-1 md:grid-cols-3 gap-10">
         {[
           {
             title: 'Certified Organic',
@@ -42,7 +42,7 @@ export default function About() {
 
       {/* Team note */}
       <section className="bg-[#3d3530] text-white">
-        <div className="max-w-3xl mx-auto px-6 md:px-12 py-20 text-center">
+        <div className="max-w-2xl mx-auto px-8 md:px-20 py-20 text-center">
           <p className="text-[#c9b9a8] text-lg leading-relaxed italic">
             "We believe skincare doesn't need to be complicated — just honest.
             Every product we make, we use ourselves. That's our quality check."

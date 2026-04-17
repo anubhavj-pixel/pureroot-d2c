@@ -17,7 +17,7 @@ export default function ProductDetail() {
   }
 
   return (
-    <div className="max-w-6xl mx-auto px-6 md:px-12 py-16">
+    <div className="max-w-5xl mx-auto px-8 md:px-20 py-16">
       <Link to="/products" className="text-sm text-[#8b6f5e] hover:underline mb-8 inline-block">
         ← Back to Shop
       </Link>
